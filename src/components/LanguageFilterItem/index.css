@@ -1,0 +1,27 @@
+/* Write your CSS here */
+
+.list-item {
+  list-style-type: none;
+}
+
+.item-btn {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 600;
+  color: #0f172a;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  flex-shrink: 0;
+  outline: none;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.active-btn {
+  border: 1px solid #0284c7;
+  color: #0284c7;
+  border-radius: 18px;
+}
